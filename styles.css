@@ -1,9 +1,16 @@
 body{
-    background-color:black;
+    background:linear-gradient(300deg,blue, blueviolet );
     text-align: center;
     margin:0;
     padding:0;
-    
+    border:none;
+    animation: gradient-animation 18s ease infinite;
+   background-size: 100% 100%;
+}
+section{
+    background-color:white;
+    margin:0;
+    padding-right: 0;
 }
 h1{
     color:white;
@@ -36,11 +43,7 @@ h3{
     position:relative;
     bottom: 25%;
 }
-.navbar{
-    height:50px;
-    background-color:blueviolet;
-    width:100%;
-}
+
 .title-background{
     height:100px;
     background-color:blueviolet;
@@ -70,6 +73,8 @@ img{
 }
 .first-container{
     margin-top:250px;
+    padding-top:50px;
+    padding-bottom:0;
     display:flex;
 }
 .second-container{
@@ -109,7 +114,12 @@ p{
 }
 footer{
     color:white;
+    background: linear-gradient(300deg,blue, blueviolet );
     margin-bottom:0;
+    padding-top:30px;
+    padding-bottom:30px;
+    height:10px;
+
 }
 .profile-photo{
     border-radius:2.5%;
@@ -143,19 +153,37 @@ footer{
     margin-top: 300px;
     margin-left: 50px;
 }
-.nav-items{
-    position:relative;
-    top:10px;
-    color:white;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size:2rem;
-    font-style: normal;
-    margin:30px;
-    text-decoration:none;
-}
+
 h1 img{
     display:inline-block;
     width:200px;
     height: 200px;
+}
+.navbar{
+    background-color: black;
+    height:10vh;
+    position:relative;
+}
+.navbar svg{
+    height:50px;
+    width:50px;
+    color:white;
+    position:absolute;
+    left:0;
+}
+
+.navbar-nav{
+    display:flex;
+    gap:2%;
+    position:relative;
+    left:60px;
+    top:15px;
+    width:100vh;
+}
+.nav-link{
+    text-decoration: none;
+    color:white;
+    top:50%;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
 }
