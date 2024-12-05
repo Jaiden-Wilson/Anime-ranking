@@ -3,15 +3,19 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Top 6 anime</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
         <link rel="stylesheet" href="./styles.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     </head>
     <body>
         
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
                 <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
@@ -31,45 +35,96 @@
           </nav>
         
         <h1>Top 6 anime</h1>
-        <p>Click images below to see my favorite characters</p>
+        <p id="message">Click images below to see my favorite characters</p>
         <section>
-        <div class="first-container">
+        <div class="container">
             <div>
-                <a href="./public/gohan.html"><img src="./assets/images/DBZ.jpg"alt="Dragon Ball Z Poster"/></a>
-                <h2>1</h2>
-                <h3>Dragon Ball Z</h3>
+                <a href="./public/gohan.html"><img class="expand" src="./assets/images/DBZ.jpg"alt="Dragon Ball Z Poster"/></a>
+                
+            </div>
+            <div class="sub-container" >
+                <h2>1. Dragon Ball Z</h2>
+                <p><span class="blue-text">Description:</span> Ah, the legendary Dragon Ball Z! This iconic anime series has captivated fans worldwide with its epic battles, memorable characters, and intense storylines. Whether you're a fan of Goku's relentless pursuit of strength, Vegeta's complex character development, or the thrilling transformations and power-ups, there's always something exciting happening in the Dragon Ball universe.
+
+                    Do you have a favorite character or moment from the series?</p>
+                    <a href="https://hianime.to/watch/dragon-ball-z-325?ep=7230"><button type="button" class="btn btn-outline-primary">Watch here</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Dragon_Ball_Z"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
             </div>
             <div>
-                <a href="./public/itachi.html"><img src="./assets/images/naruto.jpg"alt="Naruto Poster"/></a>
-                <h2>2</h2>
-                <h3>Naruto</h3>
+                <a href="./public/itachi.html"><img class="expand" src="./assets/images/naruto.jpg"alt="Naruto Poster"/></a>
+                
+            </div>
+            <div class="sub-container">
+                <h2>2. Naruto</h2>
+                <p><span class="blue-text">Description:</span> Naruto is another beloved anime series that has captured the hearts of fans around the world. It follows the journey of Naruto Uzumaki, a young ninja with dreams of becoming the strongest ninja and the leader of his village, the Hokage. The series is known for its deep character development, intense battles, and themes of friendship, perseverance, and self-discovery.
+
+                    Do you have a favorite character or moment from Naruto?</p>
+                    <a href="https://hianime.to/watch/naruto-677?ep=12352"><button type="button"  class="btn btn-outline-primary">Watch here</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Naruto"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
             </div>
             <div>
-                <a href="./public/light.html"><img src="./assets/images/deathnote.jpg"alt="Deathnote Poster"/></a>
-                <h2>3</h2>
-                <h3>Deathnote</h3>
+                <a href="./public/light.html"><img class="expand" src="./assets/images/deathnote.jpg"alt="Deathnote Poster"/></a>
+                
+            </div>
+            <div class="sub-container">
+                <h2>3. Deathnote</h2>
+                <p><span class="blue-text">Description:</span> Death Note is a gripping psychological thriller that delves into the moral complexities of justice and power. The story follows Light Yagami, a high school student who discovers a mysterious notebook that grants him the ability to kill anyone whose name he writes in it. As Light takes on the persona of "Kira" and aims to create a utopia free of crime, he faces off against the brilliant detective L in a high-stakes game of cat and mouse.
+
+                    The series is renowned for its intense mind games, ethical dilemmas, and the intricate battle of wits between Light and L. It's a fascinating exploration of how absolute power can corrupt and the lengths people will go to achieve their vision of justice.
+                    
+                    Do you have a favorite character or moment from Death Note? </p>
+                    <a href="https://hianime.to/watch/death-note-60?ep=1464"><button type="button" class="btn btn-outline-primary">Watch here</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Death_Note"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
+            </div>
+        
+            <div>
+                <a href="./public/kimblee.html"><img class="expand" src="./assets/images/fmab.jpg"alt="Full Metal Alchemist Brotherhood Poster"/></a>
+                
+            </div>
+            <div class="sub-container">
+                <h2>4. Full Metal Alchemist</h2>
+                <p><span class="blue-text">Description:</span> Fullmetal Alchemist is a captivating series that blends alchemy, adventure, and deep philosophical themes. It follows the journey of two brothers, Edward and Alphonse Elric, who use alchemy in an attempt to bring their mother back to life, only to face tragic consequences. The series explores themes of sacrifice, the pursuit of knowledge, and the moral implications of using power.
+
+                    The story is rich with complex characters, intricate plotlines, and thought-provoking questions about the nature of humanity and the cost of ambition. Whether you're drawn to the intense battles, the emotional depth, or the fascinating world of alchemy, Fullmetal Alchemist offers something for everyone.
+                    
+                    Do you have a favorite character or moment from the series?</p>
+                   <a href="https://hianime.to/watch/fullmetal-alchemist-308?ep=5791"> <button type="button" class="btn btn-outline-primary">Watch here</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
+            </div>
+            <div>
+                <a href="./public/escanor.html"><img class="expand" src="./assets/images/sds.jpg"alt="Seven Deadly Sins Poster"/></a>
+                
+            </div>
+            <div class="sub-container">
+                <h2>5. Seven Deadly Sins</h2>
+                <p><span class="blue-text">Description:</span> The Seven Deadly Sins is a thrilling anime and manga series that follows the adventures of a group of knights in the land of Britannia. These knights, known as the Seven Deadly Sins, were disbanded after being framed for plotting a coup against the Liones Kingdom. The story begins when a young girl named Elizabeth seeks out the Sins to help her reclaim her kingdom from the Holy Knights who have taken over.
+
+                    The series is known for its action-packed battles, intriguing characters, and the deep bonds of friendship and loyalty among the Sins. Each member of the group has unique abilities and a mysterious past, which adds layers of complexity to the story.
+                    
+                    Do you have a favorite character or moment from The Seven Deadly Sins?</p>
+                   <a href="https://hianime.to/watch/the-seven-deadly-sins-561?ep=10966"><button type="button" class="btn btn-outline-primary">Watch here</button></a> 
+                    <a href="https://en.wikipedia.org/wiki/The_Seven_Deadly_Sins_(manga)"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
+            </div>
+            <div>
+               <a href="./public/sanemi.html"> <img class="expand" src="./assets/images/demon-slayer.png"alt="Demon Slayer Poster"/></a>
+                
+            </div>
+            <div class="sub-container">
+                <h2>6. Demon Slayer</h2>
+                <p><span class="blue-text">Description:</span> Demon Slayer: Kimetsu no Yaiba is a visually stunning and emotionally gripping anime and manga series. It follows the story of Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer after his family is slaughtered by demons and his sister, Nezuko, is turned into one. The series is known for its breathtaking animation, intense battles, and deep emotional moments.
+
+                    The characters, each with their unique abilities and backstories, add depth to the story. The themes of family, sacrifice, and the struggle between good and evil are beautifully portrayed, making it a standout series in the anime world.
+                    
+                    Do you have a favorite character or moment from Demon Slayer?</p>
+                    <a href="https://hianime.to/watch/demon-slayer-kimetsu-no-yaiba-47?ep=1279"><button type="button" class="btn btn-outline-primary">Watch here</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba"><button type="button" class="btn btn-outline-secondary">Learn more</button></a>
             </div>
         </div>
-        <div class="second-container">
-            <div>
-                <a href="./public/kimblee.html"><img src="./assets/images/fmab.jpg"alt="Full Metal Alchemist Brotherhood Poster"/></a>
-                <h2>4</h2>
-                <h3>Full Metal Alchemist</h3>
-            </div>
-            <div>
-                <a href="./public/escanor.html"><img src="./assets/images/sds.jpg"alt="Seven Deadly Sins Poster"/></a>
-                <h2>5</h2>
-                <h3>Seven Deadly Sins</h3>
-            </div>
-            <div>
-               <a href="./public/sanemi.html"> <img src="./assets/images/demon-slayer.png"alt="Demon Slayer Poster"/></a>
-                <h2>6</h2>
-                <h3>Demon Slayer</h3>
-            </div>
-        </div>
+       </div> 
     </section>
         <footer>
             © Jaiden Wilson. All rights reserved.
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
